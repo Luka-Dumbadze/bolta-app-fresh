@@ -35,3 +35,19 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Environment variables
+.env.local
+.env.production
+.env.development
+.env
+.env.*
+
+# Firebase
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Service Account Keys (NEVER commit these)
+*-firebase-adminsdk-*.json
+serviceAccountKey.json
